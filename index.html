@@ -10,7 +10,7 @@
 
 </head>
 <body>
-    <section class="py-24 relative bg-[#1D1F25] h-[100vh]">
+    <section class="py-20 relative bg-[#000000] min-h-[100vh] ">
         <div class="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
             <div class="w-full flex-col justify-center items-center lg:gap-14 gap-10 inline-flex">
                 <div class="w-full flex-col justify-center items-center gap-5 flex">
@@ -45,7 +45,9 @@
                             </div>
                           </div>
                     </div>
-                    <img src="https://pagedone.io/asset/uploads/1718004199.png" alt="under maintenance image" class="object-cover">
+                    <video width="640" height="360" autoplay loop muted>
+                      <source src="video.mp4" type="video/mp4">
+                  </video>
                 </div>
             </div>
         </div>
@@ -78,7 +80,7 @@
 <!--Custom Script-->
 <script>
     // count-down timer
-    let dest = new Date("feb 23, 2025 23:59:59").getTime();
+    let dest = new Date("feb 25, 2025 23:59:59").getTime();
     let x = setInterval(function () {
       let now = new Date().getTime();
       let diff = dest - now;
